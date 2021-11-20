@@ -1,0 +1,45 @@
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <link rel="icon" href="images/icon.svg">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/stylesheets/forgot.css" />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
+
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+    .form-gap {
+        padding-top: 70px;
+    }
+</style>
+
+<body>
+    <div class="forgot" style="border-radius: 10px; padding: 30px; margin-top: 7%;">
+        <header>
+            <h1><i class="fas fa-user-lock"></i></h1>
+            <h1 class="p_tittle">Forgot Password?</h1>
+        </header>
+        <section>
+            <div class="container">
+                <p>Enter your username and see the message in your email.</p>
+                <input id="username-forgot" name="username" placeholder="Enter your username"
+                       class="form-control" type="text">
+
+            </div>
+            <div class="save" style="margin-top: 7%;">
+                <input id='forget-button' name="recover-submit" class="btn"
+                       value="Receive Password" type="submit" style="cursor: pointer;">
+            </div>
+        </section>
+    </div>
+    <script src="/javascripts/forgot.js"></script>
+    <script src="/javascripts/script.js"></script>
+</body>
+
+</html>
